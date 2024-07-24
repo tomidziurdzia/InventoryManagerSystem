@@ -9,20 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e2be13c-abe5-4889-ab05-0bfc3495c2ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Application/DTO/Request/Identity/ChangeUserClaimRequestDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/DTO/Request/Identity/CreateUserRequestDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/DTO/Request/Identity/LoginUserRequestDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/DTO/Request/Identity/Policy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/DTO/Response/Identity/BaseUserClaimsDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/DTO/Response/Identity/GetUserWithClaimResponseDTO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/DTO/Response/ServiceResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Extension/Identity/ApplicationUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Interface/Identity/IAccount.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Service/IAccountInterface.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/DataAccess/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/DependencyInjection/ServiceContainer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Repository/Account.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InventoryManagerSystem.sln" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryManagerSystem.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InventoryManagerSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InventoryManagerSystem/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,37 +19,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2jc1KvbzKLqta4Mm1xowSOCyLJy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Cookie-Auth",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Cookie-Auth&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ],
-    "rider.external.source.directories": [
-      "/Users/tomasdziurdzia/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
-      "/Users/tomasdziurdzia/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
-      "/Users/tomasdziurdzia/Library/Application Support/Symbols/src"
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/tomasdziurdzia/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/tomasdziurdzia/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/tomasdziurdzia/Library/Application Support/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebUI: http">
     <configuration name="WebUI: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebUI/WebUI.csproj" />
@@ -103,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721671490536</updated>
-      <workItem from="1721671491959" duration="8508000" />
+      <workItem from="1721671491959" duration="9319000" />
     </task>
     <servers />
   </component>
