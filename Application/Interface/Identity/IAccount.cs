@@ -16,4 +16,6 @@ public interface IAccount
     //Task SaveActivityAsync(ActivityTrackerRequestDTO model);
     //Task<IEnumerable<ActivityTrackerResponseDTO>> GetActivitiesAsync();
 
+    Task<ServiceResponse> CreateUserAsync(CreateUserRequestDTO model);
+    Task<IEnumerable<GetUserWithClaimResponseDTO>> GetUserWithClaimsAsync();
 }

@@ -1,0 +1,20 @@
+@page "/"
+@code {
+
+    [CascadingParameter]
+    public Task<AuthenticationState>? ClientAuthState { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            await accountService.SetUpAsync();
+            NavManager.NavigateTo((await ClientAuthState!).User.Identity!.IsAuthenticated == true ? "app/home" : "Account/login", false, true);
+        }
+        catch
+        {
+            NavManager.NavigateTo("Account/login", false, true);
+        }
+    }
+
+}

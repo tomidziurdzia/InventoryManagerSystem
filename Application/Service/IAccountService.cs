@@ -4,7 +4,7 @@ using Application.DTO.Response.Identity;
 
 namespace Application.Service;
 
-public interface IAccountInterface
+public interface IAccountService
 {
     Task<ServiceResponse> LoginAsync(LoginUserRequestDTO model);
     Task<ServiceResponse> CreateUserAsync(CreateUserRequestDTO model);

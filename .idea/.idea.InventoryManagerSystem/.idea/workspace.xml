@@ -9,16 +9,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e2be13c-abe5-4889-ab05-0bfc3495c2ec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Application/DependencyInjection/ServiceContainer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebUI/Components/Layout/Identity/AuthenticationLayout.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebUI/Components/Layout/Identity/IdentityRevalidatingAuthStateProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebUI/Components/Layout/Identity/RedirectToLogin.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebUI/Components/Layout/Identity/SignOutEndpoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebUI/Components/Pages/Content/Home.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebUI/Components/Pages/Identity/AccessDenied.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebUI/Components/Pages/Identity/AuthenticationPage.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebUI/Components/Pages/Identity/LoginPage.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebUI/Components/Pages/Identity/_Imports.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InventoryManagerSystem/.idea/dataSources/d80caac6-08fe-4f7d-a725-58d09cea779f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InventoryManagerSystem/.idea/dataSources/d80caac6-08fe-4f7d-a725-58d09cea779f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InventoryManagerSystem/.idea/dataSources/d80caac6-08fe-4f7d-a725-58d09cea779f/storage_v2/_src_/database/InventorySystem.i7oqcw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InventoryManagerSystem/.idea/dataSources/d80caac6-08fe-4f7d-a725-58d09cea779f/storage_v2/_src_/database/InventorySystem.i7oqcw/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InventoryManagerSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InventoryManagerSystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Interface/Identity/IAccount.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Interface/Identity/IAccount.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Service/AccountService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Service/AccountService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Service/IAccountInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Service/IAccountService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/DependencyInjection/ServiceContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/DependencyInjection/ServiceContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Repository/Account.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Repository/Account.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI/Components/Pages/Counter.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI/Components/Pages/Home.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI/Components/Pages/Weather.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI/Components/Routes.razor" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/Components/Routes.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI/Components/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/Components/_Imports.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/tomasdziurdzia/Desktop/Cursos/NET/InventoryManagerSystem/Infrastructure/Repository/Account.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -28,28 +58,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Cookie-Auth&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.WebUI: http.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Cookie-Auth",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ],
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/tomasdziurdzia/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/tomasdziurdzia/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
-      &quot;/Users/tomasdziurdzia/Library/Application Support/Symbols/src&quot;
+    "rider.external.source.directories": [
+      "/Users/tomasdziurdzia/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
+      "/Users/tomasdziurdzia/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
+      "/Users/tomasdziurdzia/Library/Application Support/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebUI: http">
     <configuration name="WebUI: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebUI/WebUI.csproj" />
@@ -91,12 +122,14 @@
       <option name="presentableId" value="Default" />
       <updated>1721671490536</updated>
       <workItem from="1721671491959" duration="9319000" />
+      <workItem from="1721836084795" duration="8437000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

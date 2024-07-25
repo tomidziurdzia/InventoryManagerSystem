@@ -38,6 +38,7 @@ public static class ServiceContainer
                 adp.RequireAuthenticatedUser();
                 adp.RequireRole("User");
             });
+        services.AddCascadingAuthenticationState();
         services.AddScoped<Application.Interface.Identity.IAccount, Account>();
         return services;
     }

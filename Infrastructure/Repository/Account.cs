@@ -29,6 +29,11 @@ public class Account
         else return await CreateUserClaims(model);
     }
 
+    public Task<IEnumerable<GetUserWithClaimResponseDTO>> GetUserWithClaimsAsync()
+    {
+        throw new NotImplementedException();
+    }
+
     private async Task<ServiceResponse> CreateUserClaims(CreateUserRequestDTO model)
     {
         if (string.IsNullOrEmpty(model.Policy)) return new ServiceResponse(false, "No policy specificated");
